@@ -1,53 +1,41 @@
-# Problem Hook & Value Proposition: [StreamLine / RouteLogic / your initiative]
+# Problem Hook & Value Proposition (Module 1)
 
-> **Module 1 · ★ Deliverable 1.** Repo file `01-product-thinking/problem-hook.md` — part of your submission.
-> Do the lab in the **Module 1 · Exercise 2 Guide** (linked from the Module 1 deck), then click **⬇ Download .md** — it saves as this exact file. Commit it here.
-> It becomes the **Problem, Value & Hypothesis** slide of your Module 6 final deck. (Your Module 1 · Exercise 1 discovery map lands in `strategic-map.md`.)
+## Responses
+- **Chosen path, which scenario are you committing to? (StreamLine or RouteLogic, or your own):** RouteLogic
+- **Strategic crisis, based on the brief, if the company does nothing for 12 months, what happens to its market position?:** If RouteLogic does nothing over the next 12 months, it risks losing its position as the preferred operational platform for logistics businesses. Frontline adoption will continue to decline as users turn to simpler alternatives that help them work faster. Competitors will gain a foothold in existing enterprise accounts, putting customer retention and revenue at risk.
 
-## 1. Chosen scenario
+At the same time, RouteLogic's growing complexity will increase maintenance costs, slow innovation, and make it harder to improve the core product. The business risks becoming a powerful administrative system that executives value but frontline teams actively work around.
 
-**Path:** _StreamLine Spotlight (B2C) · RouteLogic Velocity (B2B) · my own initiative_
+Ultimately, RouteLogic risks losing its competitive advantage not because it lacks functionality, but because it has lost sight of what its users actually need: a fast, simple tool to run daily operations.
+- **Moment of misery, what is the user likely doing outside the product (Google, spreadsheets, a competitor) because your tool isn’t serving them?:** Fleet coordinators are likely working around RouteLogic by using a combination of spreadsheets, Google Sheets, WhatsApp, email, phone calls, and competing lightweight tools to manage daily operations.
 
-_One line on why you picked it._
+Instead of relying on RouteLogic to coordinate deliveries, track fleet activity, and respond to real-time disruptions, they are switching between tools to get information quickly, communicate changes, update schedules, and resolve operational issues.
 
-## 2. The strategic crisis
+Some may even be trialling or adopting competitors that offer a simpler, faster way to manage their daily workflows.
 
-_The big-picture business risk. If the company does nothing for 12 months, what happens to its market position?_
+The moment of misery: Users have to leave RouteLogic to get their actual job done because the product makes simple operational tasks unnecessarily complicated.
+- **Problem hook, summarize the business risk and user pain into one urgent sentence.:** RouteLogic is losing frontline adoption and putting enterprise retention at risk because the people running daily operations are turning to simpler tools to get their jobs done faster.
+- **Value proposition, based on the proposed initiative (Spotlight or Velocity), what is the new value and why is it urgent to launch now?:** For frontline fleet coordinators, we will deliver a faster, simpler operational experience that makes managing daily fleet activities effortless, because declining adoption and competitors offering simpler alternatives are putting customer retention and RouteLogic's market position at risk.
 
-> If we do nothing for 12 months, the company will…
+## Cold-read your own hook
+- **Is the business risk high enough to justify a new initiative, a high-stakes threat, or a minor inconvenience?:** High-stakes business threat.
 
-## 3. The moment of misery
+This is more than a usability issue. Declining frontline adoption is creating a direct risk to enterprise retention, revenue, and RouteLogic's competitive position. The fact that its largest enterprise customer is already trialling a competitor makes the threat immediate and tangible.
 
-_The specific point where the product fails the user, forcing a manual workaround (Google, spreadsheets, group texts, a competitor)._
+If left unaddressed, RouteLogic risks losing customers to simpler alternatives while continuing to invest in functionality that delivers diminishing value.
 
-> The user is currently forced to…
+This justifies a strategic initiative, not incremental improvements. RouteLogic needs to simplify its core operational experience, restore frontline adoption, and protect its enterprise customer base before competitors gain further ground.
+- **Is the moment of misery a systemic problem or just an edge case?:** Systemic problem.
 
-## 4. Problem hook
+This is not an isolated user complaint or an edge case. The problem affects the 95% of customers who rely on RouteLogic daily, as accumulated features and unnecessary complexity make core operational workflows harder for frontline teams.
 
-_One urgent sentence fusing the business risk and the user pain, your pitch for why this is the most important thing to work on right now._
+Declining usage data and the largest enterprise customer's trial of a competitor are clear signals that the problem extends beyond individual frustration.
 
-> We must solve [business risk] by addressing [user pain]…
+The issue is structural: RouteLogic has prioritised expanding functionality over making its core workflows simple and efficient. Unless addressed at product level, the problem will continue to affect adoption, customer satisfaction, and retention.
+- **Does the value proposition actually remove the obstacle you identified, or is it a generic feature?:** Yes, provided we focus on removing operational complexity rather than simply reducing the number of features.
 
-## 5. Value proposition
+The obstacle is that frontline users have to navigate unnecessary functionality and administrative steps to complete simple, time-sensitive tasks. Velocity directly addresses this by simplifying core workflows, removing legacy noise, and keeping specialist enterprise capabilities available without getting in the way of everyday users.
 
-_Who it's for, the new value, and why it's urgent to launch now._
+The value is not fewer features; it is faster, simpler fleet operations without sacrificing enterprise capability.
 
-> For **[who]**, we will **[value]** because **[urgent why]**.
-
-## 6. Cold-read self-review
-
-_Read your hook back as a skeptical stakeholder. If you don't feel the urgency, that's your data._
-
-| Question | Your answer |
-|---|---|
-| Is the business risk high-stakes enough to justify a new initiative? | _____ |
-| Is the moment of misery systemic, or just an edge case? | _____ |
-| Does the value proposition actually remove the obstacle? | _____ |
-
-## 7. Finalized hypothesis _(complete in Module 3)_
-
-> Based on [qual + quant evidence], I believe that [solving X] for [persona] will result in [outcome], as measured by a [X%] change in [success metric]. I will protect [guardrail metric] and make a go/no-go decision after [decision window].
-
-## Link to full artifact
-
-_[link to your Problem Hook Builder export]_
+The initiative must demonstrate measurable improvements in task completion time, frontline adoption, and customer retention to prove it delivers real value rather than just a cleaner interface.
