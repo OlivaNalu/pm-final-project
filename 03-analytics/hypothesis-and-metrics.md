@@ -1,17 +1,57 @@
-# Hypothesis & Success Metrics
+# Hypothesis & Success Metrics (Module 3)
 
-> **Module 3 · ★ Deliverable 3.** Repo file `03-analytics/hypothesis-and-metrics.md` — part of your submission.
-> Do the lab in the **Module 3 · Exercise Guide** (linked from the Module 3 deck), then click **⬇ Download .md** — it saves as this exact file. Commit it here.
-> It feeds the **Problem, Value & Hypothesis** slide of your Module 6 final deck.
+## Pre-work · Hypothesis check
+- **Role , who you are solving for (from M2):** Two key personas that I am solving for:
+1. Frontline Driver: A delivery driver responsible for completing daily delivery routes, recording delivery outcomes, and capturing proof of delivery.
 
-## Finalized product hypothesis
+2. Fleet Dispatcher: A fleet dispatcher responsible for coordinating drivers, managing route assignments, and monitoring delivery progress throughout the day.
+- **Goal , what this user is ultimately trying to achieve:** The two personas have different goals.
 
-> Based on [qual + quant evidence], I believe that [solving X] for [persona] will result in [outcome], as measured by a [X%] change in [success metric]. I will protect [guardrail metric] and make a go/no-go decision after [decision window].
+1. Frontline Driver: Complete deliveries as quickly and efficiently as possible, with minimal administrative effort and without interruptions to their route.
 
-## Success metrics
+2. Fleet Dispatcher: Keep drivers on the correct routes and maintain accurate, real-time visibility of delivery operations.
+- **Friction / moment of misery , the specific pain blocking their goal:** Across the two personas we have the following friction:
 
-| Metric | Type | Target | Why it matters |
-|---|---|---|---|
-| _North-star_ | | _____ | _____ |
-| _Leading indicator_ | | _____ | _____ |
-| _Guardrail_ | | _____ | _____ |
+1. Frontline Driver: Marking a delivery requires navigating three screens and multiple taps, even when working in difficult conditions such as rain with a package in one hand. Combined with unreliable offline access and app crashes that can erase remaining stops, drivers increasingly rely on WhatsApp, screenshots, and paper manifests instead.
+
+2. Fleet Dispatcher: Route reassignment changes take 8–15 minutes to reach drivers, while delivery status updates can lag by 20–60 minutes. Dispatchers therefore cannot trust the dashboard to reflect what is happening in the field and resort to WhatsApp to coordinate operations.
+- **Current workaround , the external tool or manual process they rely on (M2):** WhatsApp groups, direct messaging, and manual coordination.
+- **Problem Hook , your one-sentence framing of the business crisis (M1):** RouteLogic is losing frontline adoption and putting enterprise retention at risk because the people running daily operations are turning to simpler tools to get their jobs done faster.
+- **Value Proposition , the outcome your initiative promised to deliver (M1):** For frontline fleet coordinators, we will deliver a faster, simpler operational experience that makes managing daily fleet activities effortless, because declining adoption and competitors offering simpler alternatives are putting customer retention and RouteLogic's market position at risk.
+
+## Read your data snapshots
+- **Does the funnel data confirm your M2 friction point, or does it tell a different story? Note where the numbers align with the qualitative pain you found and where they diverge.:** _(not filled in)_
+- **Do the retention patterns align with the workaround your M2 persona used to find content? Note what the Mo. 0→1 drop suggests about the onboarding experience your persona described as frustrating.:** _(not filled in)_
+- **Does the LTV gap and the content mix (61% trending for Wanderers) confirm the moment of misery your persona described? Note which segment your persona is in and whether the data confirms their pain.:** _(not filled in)_
+- **Does the low adoption confirm your persona is burdened by tools they don’t use? Note whether the low scheduling adoption (42%) for coordinators matches your M2 moment of misery.:** The data confirms that frontline users are burdened by tools that don't sufficiently support their daily workflows. Drivers and Coordinators concentrate on three core features, while adoption of everything else drops significantly. The low adoption of AI Predictive ETAs (11% of drivers) also highlights a disconnect between product investment and actual user needs.
+
+The scheduling data supports the M2 moment of misery: only 42% of Coordinators use the Shift Scheduling Module, compared with 79% of Managers. This suggests a gap between management planning and the coordinators responsible for daily execution.
+
+The opportunity is not to add more features, but to remove friction from the workflows that matter most. We should focus on improving coordinator scheduling, understanding why existing features are underused, and prioritising investment based on measurable user and business value.
+- **Does the workflow data match the manual process or hack you documented in M2? Note whether the specific drop-offs or time gaps explain why your persona avoids the digital tool.:** Yes. The workflow data reinforces the manual workaround identified in M2. While 94% of users load the fleet view, completion drops sharply after route assignment, with only 31% completing the shift handoff and 18% filing the daily report. This suggests users are abandoning the digital workflow and potentially reverting to manual processes to get the job done.
+
+The biggest issue is Compliance Checks, taking 14.6 minutes against a 3-minute benchmark. Combined with the time lost on route assignment and shift handoff, this creates significant friction and explains the 31 minutes of daily wasted time identified in the NPS data.
+
+The problem is not a lack of functionality, but a workflow that takes too long and creates too much manual effort. This supports the M2 moment of misery and reinforces the need to simplify the end-to-end coordinator workflow rather than add more features.
+- **Look at the CSAT heatmap. Which specific cell most directly maps to your persona’s friction? Note how the NPS trend justifies the urgency of your M1 Problem Hook.:** The clearest match is Coordinator × Compliance (CSAT 2.2/5.0), followed by Scheduling (2.6/5.0). These scores directly reflect the friction identified in M2: coordinators spend too much time completing compliance checks and struggle with the scheduling workflow.
+
+The urgency is reinforced by the 30-point NPS decline, from +18 to -12, alongside daily time lost to manual workarounds increasing from approximately 9 to 31 minutes. Complexity is also increasingly cited as a reason for churn.
+
+This is no longer just a usability issue; it is a retention risk. The evidence supports the M1 Problem Hook: frontline complexity is creating operational inefficiency, damaging customer satisfaction and putting account retention at risk.
+
+## Step 3 · Craft your hypothesis
+- **Qualitative evidence (from M2) , quote the specific friction / moment of misery for your persona:** Drivers: “To mark a stop delivered I tap through three screens. In the rain, at a doorstep, with a package in one hand. I've started just texting my dispatcher instead.” (UXR-01). Coordinators: “I reassign a route and the driver doesn't see it for ten, fifteen minutes. By then they've driven the wrong way. We keep a WhatsApp group as the real system.” (UXR-02). These illustrate two sides of the same problem: Drivers struggle to execute tasks easily in the field, while Coordinators struggle to manage operations and communicate changes reliably.
+- **Quantitative evidence (from M3) , name the metric or data point that confirms the pain; cite the number:** Drivers: Scheduling CSAT is 1.9/5.0 and Compliance is 2.8/5.0. Only 15% use Shift Scheduling and 11% use AI Predictive ETAs. Coordinators: Compliance CSAT is 2.2/5.0 and Scheduling is 2.6/5.0. Only 42% use Shift Scheduling. Compliance checks take 14.6 minutes against a 3-minute benchmark. Across the measured workflow, daily manual workarounds account for 31 minutes, compared with approximately 9 minutes two years ago. Coordinator NPS has fallen from +18 to -12.
+- **Persona , role, goal, and the friction you confirmed in the reconciliation steps:** Drivers: Frontline users responsible for executing daily delivery routes, completing stops and keeping delivery status up to date. Their goal is to complete routes safely and efficiently, but cumbersome task flows and delayed updates create unnecessary effort and reliance on manual communication. Coordinators (Dispatchers): Responsible for assigning routes, managing schedules, monitoring fleet activity, completing compliance checks and coordinating shift handoffs. Their goal is to keep daily operations running smoothly, but fragmented workflows and delayed information force them to rely on spreadsheets, WhatsApp, email and phone calls.
+- **Problem you are solving , one sentence describing the specific friction this initiative removes:** RouteLogic does not provide a sufficiently simple and reliable end-to-end operational experience for Drivers and Coordinators. Drivers struggle to execute daily tasks efficiently in the field, while Coordinators struggle to manage routes, schedules, compliance and handoffs with timely, accurate information. This creates unnecessary manual work, fragmented communication and reduced trust in the platform.
+- **Strategic outcome , what behaviour change do you expect, and how does it map to retention / revenue / churn?:** Drivers consistently use RouteLogic to execute routes and update delivery progress, while Coordinators use it to manage and coordinate daily fleet operations without relying on parallel manual processes. This creates more timely and reliable operational data, reduces administrative effort, improves frontline satisfaction and strengthens RouteLogic's value to enterprise customers, ultimately supporting retention and reducing complexity-driven churn.
+- **Primary success metric (initiative signal) , the leading indicator that tells you the gap is closing:** Average daily time lost to manual workarounds. Reduce the current 31-minute baseline by at least 30%, to approximately 22 minutes. Break down the measurement by persona during the pilot to establish where the improvements are coming from.
+- **Guardrail metric (product signal) , the metric that must NOT drop; it protects your existing base:** Protect existing core product satisfaction. Driver Core Dispatch CSAT must remain at or above 4.3/5.0 and Coordinator Core Dispatch CSAT at or above 4.1/5.0. Also protect Manager Reporting CSAT at 4.5/5.0 where changes affect enterprise reporting or data flows.
+- **Decision window , how much time or data before you scale, pivot, or kill? minimum threshold to proceed?:** 12-week pilot, with reviews at weeks 4, 8 and 12. Scale if manual workaround time reduces by at least 30%, both personas demonstrate measurable improvements in task completion and workflow efficiency, and guardrail metrics remain stable. Pivot if improvements benefit only one persona or workflow. Kill or fundamentally rethink the initiative if there is no meaningful improvement after 12 weeks or the existing core experience deteriorates.
+- **Draft your full hypothesis sentence , one to three sentences; quote the metric, name the persona, name the outcome:** Our goal is to make RouteLogic the platform Drivers and Coordinators (Dispatchers) rely on to execute and manage daily fleet operations efficiently, while preserving the enterprise capabilities that deliver value to the wider organisation.
+
+Based on the qualitative evidence and declining adoption and satisfaction across key workflows, I believe that simplifying the end-to-end operational experience will address two connected problems: Drivers need a faster, more intuitive way to execute routes, complete stops and update delivery progress in the field; Coordinators need a reliable, connected way to assign routes, manage schedules, complete compliance checks and coordinate shift handoffs without relying on manual workarounds.
+
+Rather than adding more features, our strategy is to remove friction from the workflows that matter most to each persona, improve the flow and reliability of operational information, and make RouteLogic more valuable in the daily execution of fleet operations. I expect this to reduce daily time lost to manual workarounds by at least 30% (from 31 to approximately 22 minutes), improve task completion and frontline satisfaction, and ultimately strengthen customer retention and reduce complexity-driven churn.
+
+I will protect Driver Core Dispatch CSAT (minimum 4.3/5.0), Coordinator Core Dispatch CSAT (minimum 4.1/5.0) and existing enterprise reporting value. I will make a go/no-go decision after a 12-week pilot, scaling only if improvements are demonstrated across both personas without compromising the existing core experience.
