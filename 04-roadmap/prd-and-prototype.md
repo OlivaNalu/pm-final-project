@@ -1,3 +1,4 @@
+https://lovable.dev/projects/175149b6-18ec-4c1a-9103-741adc7add5a
 # B3 · Shift Handoff Wizard Could save around 6.8 minutes per day and simplify Dispatcher handoffs, but has limited direct impact on the Driver experience., Simplified PRD (RouteLogic)
 
 **Author:** Me · **Status:** Draft · **Target:** High-Fidelity Prototype · **Persona:** Dispatcher/coordinator
